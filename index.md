@@ -7,5 +7,5 @@ title: Home
 
 A blog to simplify embedded systems, real-time debugging, and firmware engineering!
 
-👉 [Read My Blogs](./_posts)
+👉 [Read My Blogs](./blogs)
 
