@@ -26,13 +26,12 @@ To not just share solutions — but to offer a different perspective, to spark c
 If you're someone who loves getting your hands dirty with embedded logic, who celebrates the little wins of 
 making something *just work* — you’ll feel right at home here.
 
-Let’s connect. Let’s question. Let’s build.  
 Because in the end, we’re all students — just at different points in the journey.
 
 ---
 
 ## Read the Blogs Here 
-👉 (/techvidhi.in/blog/)
+👉 [/techvidhi.in/blog/](/techvidhi.in/blog/)
 
 
 ## 📬 Contact Me
@@ -47,4 +46,4 @@ Because in the end, we’re all students — just at different points in the jou
 ---
 
 💙 Thanks for stopping by!  
-🛠️ Let’s build something meaningful together.
+🛠️ Let’s connect. Let’s question. Let’s build something meaningful together.
