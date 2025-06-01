@@ -1,11 +1,19 @@
 ---
 layout: default
-title: Home
+title: Welcome to TechVidhi
 ---
 
-# Welcome to TechVidhi 👩‍💻
+# 👩‍💻 TechVidhi — Embedded Engineer Blog & Projects
 
-A blog to simplify embedded systems, real-time debugging, and firmware engineering!
+🚀 I write about:
+- Embedded Firmware Development
+- Real-time Debugging
+- IoT Device Design
+- And more...
 
-👉 [Read My Blogs](/techvidhi.in/)
+👉 [Read the Blog](/techvidhi.in/_posts/)
 
+👇 Featured Posts:
+{% for post in site.posts limit:3 %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
