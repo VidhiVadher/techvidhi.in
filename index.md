@@ -11,7 +11,7 @@ title: Welcome to TechVidhi
 - IoT Device Design
 - And more...
 
-👉 [Read the Blog](/techvidhi.in/_posts/)
+👉 [Read the Blog](/techvidhi.in/)
 
 👇 Featured Posts:
 {% for post in site.posts limit:3 %}
