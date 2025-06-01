@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-# 📚 All Blog Posts
+## 📝 Featured Blog Posts
 
 <ul>
 {% for post in site.posts %}
