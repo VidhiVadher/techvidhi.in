@@ -20,31 +20,29 @@ This space will be where I share:
 - 💡 Ideas that sparked unexpected “aha!” moments  
 
 **My intent?**  
+
 To not just share solutions — but to offer a different perspective, to spark curiosity, and to learn from the brilliant minds out there who see the same puzzle from another angle.
 
-If you're someone who loves getting your hands dirty with embedded logic, who celebrates the little wins of making something *just work* — you’ll feel right at home here.
+If you're someone who loves getting your hands dirty with embedded logic, who celebrates the little wins of 
+making something *just work* — you’ll feel right at home here.
 
 Let’s connect. Let’s question. Let’s build.  
 Because in the end, we’re all students — just at different points in the journey.
 
-📩 Open to feedback, suggestions, and meaningful conversations.  
-🛠️ Let’s create and learn — together.
-
 ---
 
-👉 [Read the Blog](/techvidhi.in/blog/)
-
+👉 **## Read the Blog Here** (/techvidhi.in/blog/)
 
 ## 📬 Contact Me
 
-Feel free to connect or reach out to collaborate or ask technical questions!
+📩 Open to feedback, suggestions, and meaningful conversations. 
 
-- 🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- 🌐 Portfolio: [your-portfolio-link.com](https://your-portfolio-link.com)
-- 📧 Email: [yourname@example.com](mailto:yourname@example.com)
-- 📱 Phone / WhatsApp: +91-XXXXXXXXXX
+- 🔗 LinkedIn: [https://www.linkedin.com/in/vidhi-vinod-vadher-27082b180/](https://www.linkedin.com/in/vidhi-vinod-vadher-27082b180/)
+- 🌐 Portfolio: [github.com/VidhiVadher/Portfolio/blob/main/index.md](https://your-portfolio-link.com)
+- 📧 Email: [vidhivadher05@gmail.com](mailto:vidhivadher05@gmail.com)
+- 📱 Phone / WhatsApp: +91-8780875753
 
 ---
 
 💙 Thanks for stopping by!  
-Let’s build something meaningful together.
+🛠️ Let’s build something meaningful together.
