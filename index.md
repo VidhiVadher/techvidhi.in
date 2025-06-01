@@ -5,8 +5,9 @@ title: Welcome to TechVidhi !!
 
 ## 🙋‍♀️ About Me
 
-Hi folks!! I'm Vidhi,
-after spending over 4 years in the embedded systems domain — navigating datasheets, probing signals, decoding protocols, and wrestling with stubborn bugs — I’ve come to realize something:
+Hi folks!! I'm Vidhi,<br>
+
+After spending over 4 years in the embedded systems domain — navigating datasheets, probing signals, decoding protocols, and wrestling with stubborn bugs — I’ve come to realize something:
 
 > **The real growth doesn’t just come from solving problems... it comes from sharing what made us curious enough to solve them.**
 
