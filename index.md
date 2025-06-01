@@ -31,14 +31,15 @@ Because in the end, we’re all students — just at different points in the jou
 
 ---
 
-👉 **## Read the Blog Here** (/techvidhi.in/blog/)
+## Read the Blogs Here 👉 (/techvidhi.in/blog/)
+
 
 ## 📬 Contact Me
 
 📩 Open to feedback, suggestions, and meaningful conversations. 
 
 - 🔗 LinkedIn: [https://www.linkedin.com/in/vidhi-vinod-vadher-27082b180/](https://www.linkedin.com/in/vidhi-vinod-vadher-27082b180/)
-- 🌐 Portfolio: [github.com/VidhiVadher/Portfolio/blob/main/index.md](https://your-portfolio-link.com)
+- 🌐 Portfolio: [github.com/VidhiVadher/Portfolio/blob/main/index.md](github.com/VidhiVadher/Portfolio/blob/main/index.md)
 - 📧 Email: [vidhivadher05@gmail.com](mailto:vidhivadher05@gmail.com)
 - 📱 Phone / WhatsApp: +91-8780875753
 
