@@ -118,3 +118,6 @@ You're the bug hunter in a world without logs.
 You're the wizard behind the watchdog.
 
 **Welcome to embedded — where software gets physical, sarcastic, and very, very real.**
+
+
+[← Back to Blog List](/techvidhi.in/blog/)
