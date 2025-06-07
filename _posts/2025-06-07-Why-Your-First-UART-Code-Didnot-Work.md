@@ -15,7 +15,7 @@ And then… nothing. Blank screen. Or worse, garbage characters that look like t
 
 ## 🛠️ My First Encounter With UART Hell
 
-I still remember mine — it was an STM32L476 board, some demo code from CubeMX, and a USB-to-Serial adapter I bought off the street for 150 rupees.
+I still remember mine — it was an STM32L476 board, some demo code from CubeMX, and a USB-to-Serial adapter I borrowed from one of my friends.
 
 I was so sure I’d done it all right :
 - Set the baud rate to 9600  
