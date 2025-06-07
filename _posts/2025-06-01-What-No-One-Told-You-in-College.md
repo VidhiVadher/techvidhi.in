@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What No One Told You in College"
+title: "Embedded v/s Application Programming - What No One Told You in College"
 date: 2025-05-31
 categories: embedded learning
 ---

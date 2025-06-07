@@ -11,7 +11,7 @@ After spending over 4 years in the embedded systems domain — navigating datash
 
 > **The real growth doesn’t just come from solving problems... it comes from sharing what made us curious enough to solve them.**
 
-Today, I’m starting a new chapter — not as a finished expert, but as a lifelong learner who’s ready to open up the black box and talk about the stuff that challenged me, confused me, and ultimately taught me something valuable.
+Today, I’m starting a new journey — not as a finished expert, but as a lifelong learner who’s ready to open up the black box and talk about the stuff that challenged me, confused me, and ultimately taught me something valuable.
 
 This space will be where I share:
 
