@@ -155,4 +155,4 @@ And once it does work, you’ll never take that little “Hello” message for g
 
 ---
 
-[← Back to Home](/techvidhi.in/)
+[← Back to Blog List](/techvidhi.in/blog/)
