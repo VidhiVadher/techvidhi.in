@@ -173,7 +173,9 @@ Your board takes too long to boot. Or you're running out of RAM.
 
 ✅ **Example Fix**: 
 1. Replace `printf()` with `puts()` or a lightweight logging macro.  
-2. Move constant variables in flash using `const` instead of utilising RAM. If you're storing large static data like: 
+2. Move constant variables in flash using `const` instead of utilising RAM. 
+
+If you're storing large static data like: 
 ```
 float sine_lookup[1024] = { /* values */ };                 // Stores in RAM
 ```
@@ -194,6 +196,7 @@ Your team wants to run automated builds in CI/CD (like GitHub Actions or GitLab 
 - **After**: You know the compiler commands and link flags — so you can build with `Makefile` or `CMake`.
 
 ✅ **Example Use**:  
+
 Create a `Makefile` with:
 ```
 make
@@ -216,9 +219,9 @@ It’s like switching from **driving blindfolded** to seeing the road with high 
 
 ---
 
-**Bottom line?**  
-The more you know about your build pipeline, the less you're just *using* tools — and the more you're *engineering* with them.
-**And most importantly** — you stop being just a coder and start becoming an engineer.
+**The Bottom line?**  
+
+The more you know about your build pipeline, the less you're just *using* tools — and the more you're *engineering* with them. **And most importantly — you stop being just a coder and start becoming an engineer.**
 
 ---
 
