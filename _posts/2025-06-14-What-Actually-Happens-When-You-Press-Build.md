@@ -130,7 +130,7 @@ Your microcontroller's flash memory is erased, reprogrammed, verified, and launc
 
 ---
 
-# 🎯 Why Understanding the Build Process Is a Superpower
+## 🎯 Why Understanding the Build Process Is a Superpower
 
 Once you know what’s happening under the hood — the compiler flags, the memory layout, the linking logic — **you stop being afraid of the system** and start bending it to your will.
 
@@ -140,12 +140,12 @@ Here’s exactly how it gives you an edge:
 
 ### 🔍 1. Build Errors Make Sense
 
-**Problem**:  
+- **Problem**:  
 You get a scary error like:  
 `undefined reference to 'main'`
 
-**Before**: Panic. Rebuild. Panic again.  
-**After**: You know it’s a linker error — the compiler created object files, but the linker can’t find `main()` because maybe it’s excluded or misnamed.
+- **Before**: Panic. Rebuild. Panic again.  
+- **After**: You know it’s a linker error — the compiler created object files, but the linker can’t find `main()` because maybe it’s excluded or misnamed.
 
 ✅ **Example Fix**: You realize `main.c` wasn’t added to your build config or the function signature is mismatched.
 
@@ -153,11 +153,11 @@ You get a scary error like:
 
 ### 🗺️ 2. Linker Scripts Don’t Feel Like Monsters
 
-**Problem**:  
+- **Problem**:  
 You get a “section overlaps” or “stack overflow” warning.
 
-**Before**: “What’s `.text`? What’s `.bss`? Why do I need a `.ld` file anyway?”  
-**After**: You understand the script defines where code/data live in flash/RAM, and how stack/heap are arranged.
+- **Before**: “What’s `.text`? What’s `.bss`? Why do I need a `.ld` file anyway?”  
+- **After**: You understand the script defines where code/data live in flash/RAM, and how stack/heap are arranged.
 
 ✅ **Example Fix**: You increase stack size, add a memory region, or move a large buffer from `.data` to `.ccmram` to avoid overflow.
 
@@ -165,40 +165,38 @@ You get a “section overlaps” or “stack overflow” warning.
 
 ### ⚙️ 3. You Can Optimize Boot Time or Memory
 
-**Problem**:  
+- **Problem**:  
 Your board takes too long to boot. Or you're running out of RAM.
 
-**Before**: You start deleting things randomly.  
-**After**: You check the `.map` file and see `printf()` copying in 10 KB of code from standard `libc`.
+- **Before**: You start deleting things randomly.  
+- **After**: You check the `.map` file and see `printf()` copying in 10 KB of code from standard `libc`.
 
 ✅ **Example Fix**: 
 1. Replace `printf()` with `puts()` or a lightweight logging macro.  
-2. Move constant variables in flash using `const` instead of utilising RAM.
-If you're storing large static data like: 
+2. Move constant variables in flash using `const` instead of utilising RAM. If you're storing large static data like: 
 ```
 float sine_lookup[1024] = { /* values */ };                 // Stores in RAM
-
 ```
-instead use it like :
 
+instead use it like :
 ```
 const float sine_lookup[1024] = { /* values */ };       // Stores in Flash
-
 ```
 
 ---
 
 ### 🛠️ 4. You Can Build Projects Without an IDE
 
-**Problem**:  
+- **Problem**:  
 Your team wants to run automated builds in CI/CD (like GitHub Actions or GitLab CI).
 
-**Before**: You're stuck in STM32CubeIDE.  
-**After**: You know the compiler commands and link flags — so you can build with `Makefile` or `CMake`.
+- **Before**: You're stuck in STM32CubeIDE.  
+- **After**: You know the compiler commands and link flags — so you can build with `Makefile` or `CMake`.
 
 ✅ **Example Use**:  
 Create a `Makefile` with:
-```make
+```
+make
 arm-none-eabi-gcc -c main.c -o main.o
 arm-none-eabi-ld main.o -T STM32F4.ld -o firmware.elf
 ```
@@ -224,4 +222,4 @@ The more you know about your build pipeline, the less you're just *using* tools 
 
 ---
 
-[← Back to Home](/techvidhi.in/)
+[← Back to Home](/techvidhi.in/blog/)
