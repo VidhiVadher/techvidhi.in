@@ -215,14 +215,14 @@ When you understand the build pipeline:
 - You know why some breakpoints get ignored (they’re in stripped sections)
 - You can analyze `.elf` and `.map` files like a pro
 
-It’s like switching from **driving blindfolded** to seeing the road with high beams.
+It’s like switching from **driving blindfolded to seeing the road with high beams.**
 
 ---
 
 **The Bottom line?**  
 
-The more you know about your build pipeline, the less you're just *using* tools — and the more you're *engineering* with them. **And most importantly — you stop being just a coder and start becoming an engineer.**
+The more you know about your build pipeline, the less you're just *using* tools — and the more you're *engineering* with them. And most importantly — **you stop being just a coder and start becoming an engineer.**
 
 ---
 
-[← Back to Home](/techvidhi.in/blog/)
+[← Back to Blog List](/techvidhi.in/blog/)
