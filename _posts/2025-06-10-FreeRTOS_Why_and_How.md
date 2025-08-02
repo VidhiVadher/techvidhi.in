@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🧩 FreeRTOS: The Real Reason You’ll Need It"
+title: "Multitasking Without Meltdowns: Meet FreeRTOS"
 date: 2025-08-02
 categories: freertos embedded beginner 
 ---
