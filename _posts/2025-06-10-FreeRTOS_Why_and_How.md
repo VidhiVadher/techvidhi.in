@@ -11,9 +11,11 @@ Because when I first heard “real-time operating system,”
 I thought: “Cool… so now I can multitask like my laptop?”
 Then I tried using it — and instantly got hit with config files, scheduler jargon, and xTaskCreate() nightmares.
 
-This blog is what I wish someone gave me back then, we can learn the format/method but if we don't know where and how to apply it then its completely useless.
+This blog is exactly what I wish someone handed me back then.
+Because sure — you can learn the syntax and functions…
+But if you don’t know where, why, or how to use them in real projects — it’s just noise.
 
-Here, there's no big words. No textbook talk. Just clear answers to “Why does my LED stop blinking when I read UART?”
+So here it is, with no big words. No textbook talk.
 
 ---
 ## 🧱 Before freeRTOS, let's understand the baremetal
@@ -43,7 +45,7 @@ You control everything — which is great! But also exhausting :
 - Missed a UART message while blinking an LED? Welcome to the club.
 - Forgot to recheck the sensor during a delay? Enjoy inconsistent data.
 
-It’s simple, direct, and perfect for small stuff. But when life gets more demanding…
+Baremetal is simple, direct, and perfect for small stuff. But when life gets more demanding…
 
 > **You start to wish there was a manager.**
 
@@ -73,7 +75,7 @@ It’s not magic. It’s just organized multitasking for your microcontroller.
 - FreeRTOS switches between them fast — like flipping channels
 
 ---
-# ✨ Example: What Changes With FreeRTOS
+# ✨ Example: What Changes With FreeRTOS [ Rather syntex, focus on the structure of the code ]
 
 Instead of one giant loop, you split logic into independent tasks:
 ```c
@@ -107,7 +109,7 @@ FreeRTOS gives each task time to run. So:
 
 # 🔧 When Should You Actually Use FreeRTOS?
 
-✅ You have **multiple timed events** (sensors, control, display) [ Just above example of LED + UART + Sensor read ]
+✅ You have **multiple timed events** (sensors, control, display) [ The above example of LED + UART + Sensor read ]
 
 ✅ You need **independent workflows** (communication + measurement)
 
@@ -174,7 +176,7 @@ Now imagine a planner that allocates time slots:
 That’s FreeRTOS. **It doesn’t do your work — it helps you do everything at the right time**.
 
 ---
-## 🛠️ What You Need to Use FreeRTOS : 
+## 🛠️ What Do You Need, to Use FreeRTOS : 
 
 So you're ready to try FreeRTOS — great! But before jumping in, make sure your hardware and codebase are ready for it. Here's what that really means:
 
