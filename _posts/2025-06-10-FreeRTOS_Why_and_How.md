@@ -2,7 +2,7 @@
 layout: post
 title: "Multitasking Without Meltdowns: Meet FreeRTOS"
 date: 2025-08-02
-categories: freertos embedded beginner 
+categories: embedded learning
 ---
 
 ## 👋 Why This FreeRTOS Blog?
