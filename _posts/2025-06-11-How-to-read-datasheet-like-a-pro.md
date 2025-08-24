@@ -316,8 +316,8 @@ This is like a cheat code during layout reviews and debugging — all the import
 - Misreading or skimming = missed magic:
   - “Internal pull-up disabled after boot” ← changes everything!
   - “Reset pin requires 10 ms minimum low pulse” ← ever measured it?
-- If something seems vague, **read the same sentence again, slower**. You’ll often catch a detail that changes your design approach.
-- One sentence in a datasheet can save you a full board respin. Respect the sentences.
+- If something seems vague, **read the same sentence again, slower**. You’ll often catch a detail that changes your design approach. One sentence in a datasheet can save you a full board respin. Respect the sentences.
+
 ---
 
 # Final Words
