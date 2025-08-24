@@ -266,7 +266,7 @@ Your speed improves massively with practice.
 
 # Pro Tips for Reading Datasheets Like a Hardware Ninja
 
-1. Always Get the Latest Info — from the Right Source
+### 1. Always Get the Latest Info — from the Right Source
 
 - That random PDF you found on a third-party site , might be outdated, missing errata, or even for a different package variant.
 - **Manufacturers** (like STMicro, TI, NXP, Microchip, etc.) constantly update datasheets to reflect:
@@ -279,21 +279,21 @@ Your speed improves massively with practice.
 - If your datasheet doesn't have a revision number or "last updated" tag — be suspicious.
 
 
-2. Understand Test Conditions & Electrical Context
+### 2. Understand Test Conditions & Electrical Context
 - Specs are measured under ideal conditions (25°C, proper copper pour, stable supply).
 - If your prototype is on a 2-layer board with thin traces, that regulator may overheat or underperform.
 - Compare op-amps, regulators, MCUs across brands — specs and graphs tell you a lot. You might find better performance, lower cost, or just a better-documented part.
 - The Electrical Characteristics Table is your best friend — it's where real power and current values live, not marketing fluff.
 
-3. Validate Physical and Pin Config Early
+### 3. Validate Physical and Pin Config Early
 - Don’t blindly trust EDA tool footprints — cross-check pad pitch, exposed pads, and package dimensions in the datasheet. It saves you from painful soldering or full-board respins.
 - Use the Alternate Function Matrix to pick pins that won’t conflict before layout. Fixing a wrong footprint or pin conflict post-layout is a soul-crushing experience.
 
-4. Use the Tools (and Read the Notes!)
+### 4. Use the Tools (and Read the Notes!)
 - Leverage vendor tools like ST CubeMX, TI WEBENCH, or NXP Config Tool to reduce manual errors.
 - Application Notes often hide the real engineering tips that aren’t spelled out in datasheets — like specific cap values or startup sequencing. These docs and tools represent the stuff that actually works in practice.
 
-5. Build Your Own Cheatsheet
+### 5. Build Your Own Cheatsheet
 - For big or critical chips, compile:
     - Voltage rails
     - Boot pin states
@@ -301,13 +301,13 @@ Your speed improves massively with practice.
     - Critical power-up behavior
 This is like a cheat code during layout reviews and debugging — all the important stuff in one place.
 
-6. Think Like the Author
+### 6. Think Like the Author
 - Manufacturers have patterns. Learn them.
 - ST loves pin tables, TI loves footnotes, NXP buries key info in timing diagrams.
 - Reading between the lines helps you catch traps — like “must be externally pulled” or “not available during boot”.
 - CTRL+F is your flashlight in the datasheet cave. Use it for keywords like reset, boot, pull-up, typical, recommended, etc.
 
-7. Mind Each Word  
+### 7. Mind Each Word  
 - **Manufacturers don’t write like novelists. Every word carries weight.**
 - Important info is often crammed into:
   - Tiny tables
